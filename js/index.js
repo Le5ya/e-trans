@@ -65,7 +65,7 @@ const createModal = (title, description) => {
   const formElem = createElem('form', {
     className: 'modal__form',
     method: 'post',
-    action: 'https://jsonplaceholder.typecode.com/post',
+    action: 'https://jsonplaceholder.typicode.com/posts',
     id: 'order',
   });
   const nameLabelElem = createElem('label', {className: 'modal__label'});
@@ -79,7 +79,7 @@ const createModal = (title, description) => {
     required: true,
   });
   const phoneLabelElem = createElem('label', {clasName: 'modal__label'});
-  const phoneSpanElem = createElem('span', {clasName: 'modal__text',
+  const phoneSpanElem = createElem('span', {className: 'modal__text',
   textContent: 'Телефон ',
 });
 const phoneInputElem = createElem('input', {
